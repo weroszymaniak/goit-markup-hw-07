@@ -1,0 +1,44 @@
+.footer {
+    background-color: $backgroundColor;
+    padding: 60px 200px;
+
+    &__address {
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: $mainLightColor;
+        font-style: normal;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    &__mail {
+        line-height: 1, 71;
+        letter-spacing: 0.03em;
+        color: $contactColorFooter;
+        font-style: normal;
+        margin-top: 9px;
+        margin-bottom: 9px;
+    }
+
+    &__tel {
+        line-height: 1, 71;
+        letter-spacing: 0.03em;
+        color: $contactColorFooter;
+        font-style: normal;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    &__parts {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__header {
+        font-weight: 700;
+        line-height: 1, 71;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        color: $mainLightColor;
+    }
+}
