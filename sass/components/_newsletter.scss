@@ -1,19 +1,20 @@
 .newsletter {
-    display: flex;
-    justify-content: space-between;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $mainLightColor;
 
+    &__field {
+        display: flex;
+        justify-content: space-between;
+    }
     &__form {
         display: flex;
         justify-content: space-between;
         gap: 12px;
     }
-    &__cta {
-        font-weight: 700;
-        line-height: 16px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: $mainLightColor;
-    }
+
     &__mail {
         border: 1px solid rgba(255, 255, 255, 0.3);
         background-color: $backgroundColor;
