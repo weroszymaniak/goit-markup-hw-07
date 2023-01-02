@@ -27,6 +27,9 @@
             color: $primaryColor;
         }
     }
-
-
+    &__icon {
+        gap:10px;
+        fill: currentColor;
+    }
 }
+
